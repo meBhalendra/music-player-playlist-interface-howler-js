@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>TechLearn Music Player</title>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.0/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css'>
+    <link rel='stylesheet'
+      href='https://fonts.googleapis.com/css?family=Roboto:400,400italic,300italic,300,700,700italic'>
+    <link rel="stylesheet" href="./style.css">
+
+  </head>
+
+  <body>
+    <!-- partial:index.partial.html -->
+    <div class="card">
+      <div class="picture-section">
+        <h3>Playlist 1</h3>
+        <div class="band">
+          <div class="overlay"></div>
+        </div>
+      </div>
+      <div class="slider"></div>
+      <div class="time"></div>
+      <div class="song-title">
+        <div class="artist">TechLearn Music Player</div>
+        <div class="song">Song 03</div>
+      </div>
+      <div class="playlist-controls">
+        <div class="circle"></div>
+        <div class="play-song"><i class="fa fa-play" id="play"></i></div>
+      </div>
+      <div class="song-list">
+        <div class="line"></div>
+        <div class="line two"></div>
+        <div class="line three"></div>
+        <div class="line four"></div>
+        <table>
+          <tr id="billy" data-title="song1">
+            <td class="num">1</td>
+            <td class="title">Song 01</td>
+            <td class="length">3:00</td>
+          </tr>
+          <tr id="hood" data-title="song2">
+            <td class="num">2</td>
+            <td class="title">Song 02</td>
+            <td class="length">2:54</td>
+          </tr>
+          <tr id="suzy" data-title="song3">
+            <td class="num">3</td>
+            <td class="title">Song 03</td>
+            <td class="length">2:54</td>
+          </tr>
+          <tr id="divided" data-title="song4">
+            <td class="num">4</td>
+            <td class="title">Song 04</td>
+            <td class="length">2:54</td>
+          </tr>
+        </table>
+      </div>
+      <div class="volume"><i class="fa fa-volume-off" id="volume-off"></i><i class="fa fa-volume-up" id="volume-up"></i>
+        <div class="slider-volume"></div>
+      </div>
+      <div class="slide-up"><i class="fa fa-chevron-up"></i></div>
+    </div>
+    <!-- partial -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/howler/1.1.28/howler.min.js'></script>
+    <script src="./script.js"></script>
+  </body>
+
+</html>
